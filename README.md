@@ -6,8 +6,8 @@ coming soon...
 
 ## How to use it
 Please visit the website Live Site URL: [E.Kopacz Landing Page CuDanusie](http://cudanusie.ekopacz.pl) and type and type the authorisation data:
-    login: evlinkiker
-    passoword: RU2MBX64ToWCj6oWowxK
+* login: evlinkiker
+* passoword: RU2MBX64ToWCj6oWowxK
 
 ## Solutions
 coming soon...
@@ -18,8 +18,8 @@ coming soon...
 
 ### Project preview
 
-See rwd
-[Project-preview](./preview/preview1.png)
+preview nr 1
+[Project-preview](./preview/screen1.png)
 
-See entire website
+preview nr 2
 [Project-preview](./preview/preview2.png)
