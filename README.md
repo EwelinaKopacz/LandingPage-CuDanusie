@@ -9,6 +9,13 @@ Please visit the website Live Site URL: [E.Kopacz Landing Page CuDanusie](http:/
 * login: evlinkiker
 * passoword: RU2MBX64ToWCj6oWowxK
 
+## Technologies
+* HTML
+* CSS
+* SASS
+* RWD
+* JAVASCRIPT
+
 ## Solutions
 coming soon...
 
