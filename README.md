@@ -17,3 +17,9 @@ coming soon...
 * [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/) - Ewelina Kopacz
 
 ### Project preview
+
+See rwd
+[Project-preview](./preview/preview1.png)
+
+See entire website
+[Project-preview](./preview/preview2.png)
