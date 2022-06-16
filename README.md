@@ -18,8 +18,8 @@ coming soon...
 
 ### Project preview
 
-preview nr 1
-[Project-preview](./preview/screen1.png)
+[Desktop version](./preview/screen1.png)
 
-preview nr 2
-[Project-preview](./preview/preview2.png)
+[Mobile version](./preview/screen2.png)
+
+[Tablet version](./preview/screen3.png)
