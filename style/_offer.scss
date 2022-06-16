@@ -1,0 +1,138 @@
+// OFFER INTRO SECTION
+
+#offer{
+    width:90%;
+    margin:auto;
+}
+
+.offer-intro{
+    @include flex (center,center,column);
+    min-height:50vh;
+    text-align: center;
+
+    h3{
+    font-family: 'Stoke', serif;
+    font-size:$headerspecial;
+    padding:2rem 5rem 1rem;
+}
+
+     h4{
+    font-family: 'Stoke', serif;
+    font-weight: 300;
+    font-size:$header4;
+    padding:5rem 5rem 1rem;
+    margin-bottom: 3rem;
+}
+
+     img{
+    @include decoration-line;
+}
+}
+
+//OFFER MAIN SECTION
+
+.offer-container{
+    min-height:60vh;
+    @include flex (center, center, row);
+    flex-wrap:wrap;
+    margin-bottom:2rem;
+}
+
+.card {
+    display:grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 270px 180px 60px;
+    grid-template-areas: "image" "text" "btn";
+    border-radius:18px;
+    background: white;
+    box-shadow:5px 5px 15px rgba(56, 44, 44, 0.9);
+    font-family: 'Stoke', serif;
+    text-align: center;
+    margin: 3.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover{
+    transform: scale(1.1);
+     box-shadow:5px 5px 10px rgba(56, 44, 44, 0.6);
+    }
+}
+
+
+.card-image {
+    grid-area:image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-text {
+    grid-area:text;
+    padding:3rem 0.5rem 3rem;
+    h4{
+        font-size: $text;
+    }
+    p{
+        padding:1.5rem;
+        font-size:16px;
+    }
+}
+
+.card-btn{
+    grid-area:btn;
+  
+    button{
+        height:100%;
+        width:100%;
+        background: linear-gradient(to right, #9a8478, #1e130c); 
+        color:white;
+        font-family: 'Stoke', serif;
+        font-size:$textp;
+        cursor: pointer;
+        letter-spacing: 2.5px;
+        border:none;
+        transition:0.5s ease-in-out;
+    }
+}
+
+.card-btn button:hover{
+    font-size:19px;
+    background:linear-gradient(to right, #b8b6b5, #1e130c); 
+
+}
+
+//CARD1
+.card-image.card-img1{
+    background: url(/gallery/drzewka1.jpg);
+    background-size: cover;
+}
+
+
+//CARD2
+.card-image.card-img2{
+    background: url(/gallery/galez1.jpg);
+    background-size: cover;
+}
+
+//CARD3
+.card-image.card-img3{
+    background: url(/gallery/ramka1.jpg);
+    background-size: cover;
+}
+
+//CARD4
+.card-image.card-img4{
+    background: url(/gallery/ozdoby1.jpg);
+    background-size: cover;
+}
+
+//CARD5
+.card-image.card-img5{
+    background: url(/gallery/bizuteria.jpg);
+    background-size: cover;
+}
+
+//CARD5
+.card-image.card-img6{
+    background: url(/gallery/serca-ramki.jpg);
+    background-size: cover;
+}

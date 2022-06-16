@@ -1,0 +1,110 @@
+// ABOUT-INTRO SECTION
+
+#about{
+    width:90%;
+    margin:auto; 
+}
+
+.about-intro{
+    min-height:50vh;
+    @include flex (center,center,column);
+    text-align: center;
+}
+
+.about-intro h3 {
+    font-family: 'Stoke', serif;
+    font-size:$headerspecial;
+    padding:2rem 5rem 1rem;
+}
+
+.about-intro h4 {
+    font-family: 'Stoke', serif;
+    font-weight: 300;
+    font-size:$header4;
+    padding:5rem 5rem 1rem;
+    margin-bottom: 3rem;
+}
+
+.about-intro img{
+    @include decoration-line;
+}
+
+// ABOUT-MAIN SECTION
+
+.about-main{
+    min-height:70vh;
+    width:100%;
+    @include flex (center, center, row);
+    background:#eee2dc;
+    color:rgb(0, 0, 0);
+
+}
+
+.container-about{
+    width:90%;
+    max-width:1000px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.about-image{
+    width:50%;
+    height:600px;
+    background:url(/gallery/about-photo2.jpg) no-repeat center /cover;
+    border-radius: 6px;
+    margin:2rem;
+}
+
+
+.about-text{
+    width:50%;
+    min-height:400px;
+    background-image: linear-gradient(135deg, #f1e6dc 0%, #e4cbb7 100%);
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    margin-left:-8rem;
+    border-radius: 6px;
+    
+    h3{
+        font-family: 'Great Vibes', cursive;
+        font-size: $about;
+        padding:2rem 3rem;
+        text-align: left;
+    }
+
+    p{
+        font-family: 'Stoke', serif;
+        font-weight: 300px;
+        font-size:$textp;
+        padding:2rem 3rem;
+        text-align: left;
+}
+}
+
+.about-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    background: white;
+    font-family: 'Stoke', serif;
+    font-weight: 300px;
+    font-size:$textp;
+    padding:1.5rem 2rem;
+    letter-spacing: 2.5px;
+    margin:2rem 2rem;
+    display: inline-block;
+    border-radius: 6px;
+    // border-radius: 23% 77% 27% 73% / 100% 0% 100% 0%;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background:rgb(39, 37, 37);
+        color:white;
+    }
+}

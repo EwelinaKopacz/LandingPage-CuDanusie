@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+
+@mixin flex ($justify, $align, $direction){
+    display:flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin decoration-line {
+    height:10vh;
+    margin:0 auto;
+    display:inline-block;
+    opacity: 0.2;
+}
+
+$header1: 3.5rem;
+$header2: 3rem;
+$header3: 2.8rem;
+$header4: 2rem;
+$header5: 2rem;
+$headerspecial:4rem;
+$text:2.5rem;
+$textp:1.6rem;
+$special:8rem;
+$about:5rem;
+
+@import "mainhead";
+@import "mainhero";
+@import "about";
+@import "gallery";
+@import "offer";
+@import "footer";
+@import "contact";
+
+// Media Query section
+
+@media screen and (max-width: 970px){
+    .nav-links {
+        display:none;
+        li{
+            padding:0.8rem 0rem;
+        }
+    }
+
+    .about-intro h3,.gallery-intro h3,.offer-intro h3 {
+        margin-top:2rem;
+    }
+
+    .nav-links.show{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
+@media screen and (max-width:920px){
+    .about-text{
+         width:60%;
+    }
+
+    .about-image{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container-about{
+        flex-direction: column;
+    }
+    .about-text{
+        width:80%;
+        margin:-10rem 0rem 4rem;
+   }
+
+   .about-image{
+       width:90%;
+       height:450px;
+   }
+}
+
+
+@media screen and (max-width: 710px){
+    html {
+        font-size: 53%;
+    }
+    .main-hero h2 {
+        background-color:rgba($color: #ffffff, $alpha: 0.6);
+        padding:2rem 4rem;
+        border-radius: 0%;
+        // font-size: 6.5rem;
+    }
+}
+
+@media screen and (max-width:620px){
+    .form-wrapper form .form-row{
+        display: block;
+ }
+     form .form-row .input-data{
+     margin:6rem 0rem;
+ }
+
+ .input-data label{
+     font-size:1.8rem;
+ }
+}
+
+@media screen and (max-width:464px){
+    .hamburger {
+        margin:2rem 2rem;
+        align-self: center;
+        font-size:3rem;
+    }
+
+    #logo{
+        flex: 1 1 auto;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .about-intro img,.gallery-intro img,.offer-intro img,.form-head img{
+        width:100%;
+    }
+
+    footer img{
+        margin:0rem 0.6rem;
+    }
+}
+
+@media screen and (max-width:368px){
+    .about-btn {
+        font-size:12px;
+        letter-spacing: 1.5px;
+    }
+}
