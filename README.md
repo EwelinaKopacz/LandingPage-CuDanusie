@@ -10,7 +10,7 @@
 ## About the project:
 „CuDanusie” Landing Page was created for my friend who wanted to sell her home made productcs online. I prepared desing in Figma tool and created website using HTML, SASS and JavaScript. Landing page is mobile friendly. 
 
-I decided to create this website after finish online course Dev Ed [„The Creative HTML5 & CSS3 Course”.](https://developedbyed.com/p/the-creative-html5-css3-course).Together with Ed I created 3 projects but the finall project “CuDanusie” in my own. I created it from scratch and decided to use SAAS preprocessor CSS.
+I decided to create this website after finish online course Dev Ed [„The Creative HTML5 & CSS3 Course”](https://developedbyed.com/p/the-creative-html5-css3-course).Together with Ed I created 3 projects but the finall project “CuDanusie” in my own. I created it from scratch and decided to use SAAS preprocessor CSS.
 
 ## How to see it
 Please visit the website Live Site URL: [E.Kopacz Landing Page CuDanusie](http://cudanusie.ekopacz.pl)
